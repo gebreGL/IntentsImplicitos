@@ -37,6 +37,11 @@ public class MainActivity extends AppCompatActivity {
                 i.setData(Uri.parse("http://www.edu.xunta.gal/portal"));
                 startActivity(i);
                 break;
+            case R.id.btnMapa:
+                i.setAction(Intent.ACTION_VIEW);
+                i.setData(Uri.parse("geo:42.25,-8.68"));
+                startActivity(i);
+                break;
         }
 
     }
