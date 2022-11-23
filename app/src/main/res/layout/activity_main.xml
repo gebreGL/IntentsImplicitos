@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FF0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intents implícitos"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnContactos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar contactos"
+        android:onClick="onCLickBtn"/>
+
+    <Button
+        android:id="@+id/btnDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dial"
+        android:onClick="onCLickBtn"/>
+
+    <Button
+        android:id="@+id/btnMarcarNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dial + Numero"
+        android:onClick="onCLickBtn"/>
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar por teléfono"
+        android:onClick="onCLickBtn"/>
+
+    <Button
+        android:id="@+id/btnNavegador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir navegador"
+        android:onClick="onCLickBtn"/>
+
+</LinearLayout>
