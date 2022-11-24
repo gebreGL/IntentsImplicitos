@@ -37,6 +37,13 @@
         android:onClick="onCLickBtn"/>
 
     <Button
+        android:id="@+id/btnMarcarNumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dial + Numero v2"
+        android:onClick="onCLickBtn"/>
+
+    <Button
         android:id="@+id/btnLlamar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
